@@ -26,7 +26,50 @@
           </div>
         </div>
       </nav>
-    </header> 
+    </header>
+    
+    <main>
+      <div class="container mt-4" id="body">
+          <div class="row">
+              <div class="col-md-5">
+                  <div class="card">
+                      <div class="card-header">
+                          <h2>Agregar nuevo Usuario</h2>
+                      </div>
+                      <div class="card-body">
+                          <form id="formulario">
+                              <div class="form-group">
+                                  <input type="text" id="nombre" class="form-control my-3" placeholder="Ingresar nombre">
+                              </div>
+                              <div class="form-group">
+                                  <input id="direccion" class="form-control my-3" placeholder="Ingresar direccion"></input>
+                              </div>
+                              <div class="form-group">
+                                  <input type="number" id="edad" class="form-control my-3" placeholder="Ingresar edad">
+                              </div>
+                              <button type="submit" class="btn btn-primary">Agregar</button>
+                          </form>
+  
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <table class="table caption-top bg-light">
+                      <thead>
+                        <tr>
+                          <th scope="col">Nombre</th>
+                          <th scope="col">Direccion</th>
+                          <th scope="col">Edad</th>
+                        </tr>
+                      </thead>
+                      <tbody id="tbody">
+                        
+                      </tbody>
+                    </table>
+              </div>
+          </div>
+      </div>
+  </main>
 
     <footer class="animate__animated animate__fadeInUp">
       Saúl Regalado &copy; All rights reserved 😛
